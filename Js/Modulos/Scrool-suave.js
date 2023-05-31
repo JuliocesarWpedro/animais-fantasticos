@@ -6,15 +6,15 @@ export default class ScrollSuave {
     } else {
       this.options = options;
     }
+
     this.scrollToSection = this.scrollToSection.bind(this);
-    console.log("Funcinou 2");
   }
 
   scrollToSection(event) {
+    event.preventDefault();
     const href = event.currentTarget.getAttribute("href");
     const section = document.querySelector(href);
     section.scrollIntoView(this.options);
-    console.log("Funcinou 1");
   }
 
   addLinkEvent() {
@@ -26,7 +26,6 @@ export default class ScrollSuave {
   init() {
     if (this.linksInternos.length) {
       this.addLinkEvent();
-      console.log("Existe");
     }
     return this;
   }
