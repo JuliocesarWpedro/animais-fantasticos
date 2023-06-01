@@ -17,8 +17,7 @@ const accordion = new Accordion("[data-anime='accordion'] dt");
 accordion.init();
 
 const tabNav = new TabNav("[data-tab='menu'] li img", "[data-tab='content'] section");
-
-tabNav.init()
+tabNav.init();
 
 initModal();
 initTooltip();
