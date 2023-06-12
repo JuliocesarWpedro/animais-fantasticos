@@ -8,8 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Playfair+Display+SC" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./Css/style.css" />
   <script>
     document.documentElement.className += ' js';
@@ -33,7 +32,7 @@
         </li>
         <li><a href="#faq">Faq</a></li>
         <li><a href="#contato">Contato</a></li>
-        <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
       </ul>
     </nav>
     <section class="grid-section animais" data-anime="scroll" id="animais">
@@ -180,7 +179,7 @@
 
   <div class="modal-container" data-modal="container">
     <div class="modal">
-      <button data-modal="fechar" class="fechar">X</button>
+      <button data-modal="fechar" class="fechar"></button>
       <form action="">
         <label for="email">E-mail</label>
         <input type="text" form="email" id="email">
