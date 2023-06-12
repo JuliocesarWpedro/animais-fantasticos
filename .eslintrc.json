@@ -19,6 +19,7 @@
     "import/no-named-as-default-member": 0,
     "import/namespace": 0,
     "import/default": 0,
-    "import/export": 0
+    "import/export": 0,
+    "max-classes-per-file": ["error", 2]
   }
 }
