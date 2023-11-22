@@ -32,6 +32,7 @@
   opacity: 1;
   transform: scale(1);
 }
+
 .custom-controls {
   grid-column: 1 / -1;
   display: flex;
@@ -41,6 +42,7 @@
 }
 
 .custom-controls li {
+  cursor: pointer;
   opacity: 0.8;
   border-radius: 50px;
   transform: scale(0.8);
